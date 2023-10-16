@@ -21,23 +21,30 @@ body {
 
 /* Display */
 .calculator-display {
+  height: 100px;
   background: black;
   color: white;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border-radius: 10px 10px 0 0;
+  border-radius: 7px 7px 0 0;
   max-width: 100%;
 }
 
-.calculator-display h1 {
+.calculator-display input{
   margin: 0;
   padding: 25px;
-  font-size: 45px;
+  font-size: 25px;
   font-family: "Lucida Console", sans-serif;
   font-weight: 100;
   overflow-x: auto;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  height: 47%;
+  width: 90%;
 }
 
 
