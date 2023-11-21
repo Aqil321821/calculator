@@ -13,7 +13,8 @@
         <!-- Display -->
         <div class="calculator-display">
             <!-- <h1 id="result"></h1> -->
-            <input type="text" id="result" >
+            <!-- <input type="text" id="pastResult" > -->
+            <input type="text" id="inputResult" >
         </div>
         <!-- Buttons -->
         <div class="calculator-buttons">
@@ -30,7 +31,7 @@
             <button onclick="getNumber('1');">1</button>
             <button onclick="getNumber('2');">2</button>
             <button onclick="getNumber('3');">3</button>
-            <button class="decimal" onclick="getNumber('.');">.</button>
+            <button class="decimal" onclick="del()">C</button>
             <button onclick="getNumber('0');">0</button>
             <button class="clear" id="clear-btn" onclick="clearResult()">C</button>
             <button class="equal-sign operator" onclick="getResult()">=</button>
